@@ -1,4 +1,4 @@
 /opt/gitlab/embedded/bin/runsvdir-start&
-gitlab-ctl reconfigure
+gitlab-ctl reconfigure && service ssh start
 tail -f /dev/null
 
