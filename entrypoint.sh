@@ -1,4 +1,3 @@
 /opt/gitlab/embedded/bin/runsvdir-start&
-gitlab-ctl reconfigure && service ssh start && export GIT_SSL_NO_VERIFY=true
+gitlab-ctl reconfigure && git config --global http.sslverify && false service ssh start
 tail -f /dev/null
-
