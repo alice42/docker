@@ -1,3 +1,3 @@
-/opt/gitlab/embedded/bin/runsvdir-start&
+(/opt/gitlab/embedded/bin/runsvdir-start &)
 gitlab-ctl reconfigure
 tail -f /dev/null
